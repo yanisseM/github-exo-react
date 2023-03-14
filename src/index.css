@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1F2039;
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 code {
@@ -17,7 +20,7 @@ code {
   height: 100vh;
   position: fixed;
   left: 0;
-  background-color: aquamarine;
+  background-color: #242424;
 }
 
 .content {
@@ -26,7 +29,7 @@ code {
 
 .content header {
   height: 64px;
-  background-color: #efefef;
+  background-color: white;
 }
 
 .content main {
@@ -36,7 +39,11 @@ code {
 
 .content footer {
   height: 128px;
-  background-color: #6e6e6e;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .searchTerm{
@@ -67,33 +74,30 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 
 a{
-  font-size: 1em;
+  font-size: 23px;
   color:black;
   text-decoration: none;
 }
 
 .logo-e-commerce{
+  width: 70px;
+}
+
+.logo-reseaux{
+  margin-left: 30px;
   width: 50px;
 }
 
-
-
-footer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
+.button-header{
+  width: 70px;
 }
 
-header, footer{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  background-color: white;
+ul{
+  margin-right: 150px;
 }
+
