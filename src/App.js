@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
-import Footer from './Footer';
+import './index.css';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-      <main>
-        
-      </main>
 
-      <footer className='App-Footer'>
-        <Footer/>
-      </footer>
-    </div>
-  );
-}
 
-export default App;
+const App = () => {
+      return (
+        <div>
+          <Sidebar />
+          <div className="content">
+            <Header />
+            <Main />
+            <Footer />
+          </div>
+        </div>
+      );
+    }
+    
+    export default App;
+  

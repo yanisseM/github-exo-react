@@ -1,5 +1,6 @@
-function navbar(){
-    return(
+const Navbar = () =>{
+
+    return <header>
         <nav>
                 <img src="https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png" alt="Logo e-commerce" className="logo-e-commerce" />
 
@@ -10,6 +11,7 @@ function navbar(){
                 <a href="">Compte</a>
             </div>
         </nav>
-    )
+    </header>;
 }
-export default navbar;
+
+export default Navbar;
