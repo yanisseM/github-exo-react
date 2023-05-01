@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1F2039;
+  background-color: white;
   font-family: 'Manrope', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
@@ -20,7 +20,7 @@ code {
   height: 100vh;
   position: fixed;
   left: 0;
-  background-color: #242424;
+  background-color: black;
 }
 
 .content {
@@ -29,7 +29,7 @@ code {
 
 .content header {
   height: 64px;
-  background-color: white;
+  background-color: #efefef;
 }
 
 .content main {
@@ -39,7 +39,7 @@ code {
 
 .content footer {
   height: 128px;
-  background-color: white;
+  background-color: #efefef;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -47,7 +47,7 @@ code {
 }
 
 .searchTerm{
-  width: 30%;
+  width: 45%;
   border: 3px solid black;
   padding: 5px;
   height: 20px;
@@ -61,8 +61,7 @@ div{
   flex-direction: row;
   gap: 15px;
   justify-content: center;
-  margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 nav a {
@@ -79,7 +78,7 @@ nav{
 
 
 a{
-  font-size: 23px;
+  font-size: 20px;
   color:black;
   text-decoration: none;
 }
@@ -90,7 +89,7 @@ a{
 
 .logo-reseaux{
   margin-left: 30px;
-  width: 50px;
+  width: 35px;
 }
 
 .button-header{
@@ -100,4 +99,35 @@ a{
 ul{
   margin-right: 150px;
 }
+ /*CARD*/
+ main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
 
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+/* https://css-tricks.com/css-only-carousel/ */

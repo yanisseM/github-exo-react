@@ -1,7 +1,10 @@
+// import './src/footer.css';
 
 const footerBar = () =>{
     return <footer>
-        <img src="https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png" alt="Logo e-commerce" className="logo-e-commerce" />
+                <a href="App.js">
+                    <img src="https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png" alt="Logo e-commerce" className="logo-e-commerce" />
+                </a>
                 <nav>
                     <ul>
                         <li><a href="">A Propos</a></li>
