@@ -12,7 +12,7 @@ const footerBar = () =>{
                     </ul>
                     <ul>
                         <li><a href="">Chartes de confidentialités</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="">Nous Contacter</a></li>
                     </ul>
                 </nav>
                 
