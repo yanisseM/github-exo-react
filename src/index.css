@@ -19,9 +19,13 @@ body {
   width: 20%;
 }
 
-.logo-e-commerce {
+.logo-site {
   max-width: 100%;
   max-height: 40px;
+}
+
+.produit-cards{
+  
 }
 
 .search-container {

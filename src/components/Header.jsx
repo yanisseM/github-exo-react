@@ -5,9 +5,9 @@ const Header = () => {
     <header className="header">
       <div className="logo-container">
         <img
-          src="https://www.dynamicmarketing.eu/wp-content/uploads/2018/06/ecommerce.logo_.png"
-          alt="Logo e-commerce"
-          className="logo-e-commerce"
+          src="https://cdn-icons-png.flaticon.com/512/5524/5524563.png"
+          alt="Logo site Football"
+          className="logo-site"
         />
       </div>
       <div className="search-container">
